@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>obtener info con el objeto document   por getElementById('id').value</title>
+	<script type="text/javascript">
+			
+		function saludar(){
+			var nombre1 = document.getElementById('campo1').value;
+			console.log(formulario)
+			document.getElementById('campo2').value = nombre1;
+		}
+	</script>
+
+
+	</script>
+</head>
+<body>
+	<form name='formulario'>
+		<label>Escribe tu nombre: </label>
+		<input type="text" name="campo1"  id="campo1">
+		<input type="button" value="Enviar formulario" onclick="saludar()">
+		<input type="text" name="campo2" id="campo2">
+	</form>
+</body>
+</html>
